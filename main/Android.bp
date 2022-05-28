@@ -144,6 +144,8 @@ cc_library_shared {
             required: [
                 "libldacBT_enc",
                 "libldacBT_abr",
+                "liblhdcBT_enc",
+                "liblhdcBT_dec",
             ],
         },
     },

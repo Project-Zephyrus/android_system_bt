@@ -89,7 +89,7 @@ class BtifA2dpSinkControlBlock {
         decode_alarm(nullptr),
         sample_rate(0),
         channel_count(0),
-        rx_focus_state(BTIF_A2DP_SINK_FOCUS_NOT_GRANTED),
+	rx_focus_state(BTIF_A2DP_SINK_FOCUS_NOT_GRANTED),
         audio_track(nullptr),
         decoder_interface(nullptr) {}
 
